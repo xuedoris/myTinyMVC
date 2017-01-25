@@ -1,0 +1,207 @@
+/* The style sheet for Phonebook application*/
+
+/* Basic style for the pages*/
+body, html {
+	margin: 0;
+	padding: 0;
+	background:transparent;
+}
+
+/* Major content */
+#wrap {
+	border:groove;
+	width: 900px;
+	margin: 0 auto;
+}
+
+/* header */
+#header {
+	font-family: Italic,sans-serif;
+	background: #894c9a;
+	height: 80px;
+}
+
+/* logo */
+#logo {
+	margin:0;
+	padding: 10px 20px;
+	color: white;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+}
+
+#logo h1,a {
+	color: white;
+	text-decoration: none;
+}
+
+#logo p {
+	color: black;
+}
+
+/* version menu */
+#menu {
+	font-family: Italic,sans-serif;
+	padding:5px 10px;
+	font-size: 13px;
+	background: #67cd00;
+}
+
+/* sidebar */
+#sidebar {
+	float: left;
+	width: 200px;
+	background: white;
+}
+
+#sidebar p {
+	color:red;
+	font-size: small;
+	display:none;
+}
+
+/* add new contact */
+#new_contact {
+	border:5px ridge;
+	margin:10px;
+	padding:10px;
+	background: white;
+}
+
+#new_contact input, select, a {
+	margin:10px 0;
+}
+#new_contact input#reset {
+	border-radius: 7px;
+	border:hidden;
+	color: white;
+	font-family:"Times New Roman",Georgia,Serif;
+	font-size: medium;
+	background-color: #ff4111;
+	margin:0;
+	padding: 5px;
+}
+#new_contact input#reset:hover{
+	background-color: #0084B4;
+}
+
+#new_contact h4 {
+	margin:0 0 10px 0;
+	
+}
+/* validation message style */
+#exist{
+	color:red;
+	font-size: small;
+}
+
+/* search box */
+#search {
+	border:5px ridge;
+	margin:10px;
+	padding:10px;
+	background: white;
+}
+
+#search input, a {
+	margin:10px 0;
+}
+#search h4 {
+	margin:0 0 10px 0;
+	
+}
+
+/* main--showing contact list */
+#main {
+	float:left;
+	width: 550px;
+	padding: 25px 0;
+	margin-left:40px;
+	background: white;
+}
+
+#main input {
+	display:none;
+}
+#main p {
+	color:red;
+	font-size: small;
+	display:none;
+}
+#main table {
+	border-collapse:collapse;
+}
+
+#main th, td {
+	border:1px solid #666666;
+	padding:3px 7px 2px 7px;
+}
+
+#main th {
+	color:white;
+	background:#666666;
+}
+
+#main td {
+	color:#0084B4;
+}
+#main img {
+	padding:5px 0 0 0;
+}
+#main tr.alt td {
+color:#0084B4;
+background-color:#EAF2D3;
+}
+
+/* footer */
+#footer {
+	clear: both;
+	font-family: Italic,sans-serif;
+	background: #894c9a;
+}
+/* description in footer */
+#desc {
+	margin:0;
+	padding: 10px 20px;
+	color: black;
+}
+
+#desc h5 {
+	margin-bottom:25px;
+	margin-top:0;
+}
+
+#desc p {
+	margin: 0;
+}
+
+.button {
+	border-radius: 7px;
+	color: white;
+	font-family:"Times New Roman",Georgia,Serif;
+	font-size: medium;
+	background-color: #525252;
+	padding: 5px;
+	
+}
+
+/* style classes */
+.button:hover {
+	background-color: #0084B4;
+}
+
+.hidden {
+	display:none;
+}
+img.arrow-up {
+	width:14px;
+	height:7px;
+	background: url(../Images/arrow.gif) 0px 0px;
+}
+img.arrow-down {
+	width:14px;
+	height:7px;
+	background: url(../Images/arrow.gif) 15px 0px;
+}
